@@ -1,44 +1,48 @@
-/* Dans HomePage.css */
-
+/* Styles pour l'en-tête */
 .header {
-    text-align: center; /* Centrer le contenu horizontalement */
-    padding-top: 50px; /* Espacement du haut de la page */
-    color: blue;
-    border-bottom: 10px;
-  }
-  
-  .button-container {
-    display: flex; /* Utilisation de Flexbox pour aligner les boutons horizontalement */
-    justify-content: space-around; /* Espacement équitable entre les boutons */
-  }
-  
-  .inscription-button,
-  .Infos-button,
-  .connexion-button {
-    background-color: blue; /* Couleur de fond des boutons */
-    color: white; /* Couleur du texte des boutons */
-    border: none; /* Supprimer la bordure */
-    padding: 10px 20px; /* Espacement intérieur des boutons */
-    cursor: pointer; /* Curseur de la souris au survol des boutons */
-  }
-  
-  .inscription-button:hover,
-  .Infos-button:hover,
-  .connexion-button:hover {
-    background-color: #0066cc; /* Couleur de fond des boutons au survol */
-  }
-  
-  .image {
-    text-align: center; /* Centrer l'image horizontalement */
-    margin-top: 20px; /* Espacement du haut de l'image */
-  }
-  
-  body {
-    margin: 0; /* Supprimer les marges par défaut */
-    padding: 0; /* Supprimer les marges internes par défaut */
-    background-image: url('salle-de-boxe.png'); /* Utiliser l'image comme fond */
-    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la page */
-    background-position: center; /* Centrer l'image horizontalement et verticalement */
-  }
-  
-  
+  text-align: center; /* Centrer le contenu horizontalement */
+  padding-top: 50px; /* Espacement du haut de la page */
+  color: blue;
+  border-bottom: 10px;
+}
+
+/* Styles pour le conteneur des boutons */
+.button-container {
+  display: flex; /* Utilisation de Flexbox pour aligner les boutons horizontalement */
+  justify-content: space-around; /* Espacement équitable entre les boutons */
+}
+
+/* Styles pour les boutons Inscription, Infos, MAJ_Membres et Connexion */
+.inscription-button,
+.infos-button,
+.maj-membres-button,
+.connexion-button {
+  background-color: blue; /* Couleur de fond des boutons */
+  color: white; /* Couleur du texte des boutons */
+  border: none; /* Supprimer la bordure */
+  padding: 10px 20px; /* Espacement intérieur des boutons */
+  cursor: pointer; /* Curseur de la souris au survol des boutons */
+}
+
+/* Styles au survol des boutons Inscription, Infos, MAJ_Membres et Connexion */
+.inscription-button:hover,
+.infos-button:hover,
+.maj-membres-button:hover,
+.connexion-button:hover {
+  background-color: #0066cc; /* Couleur de fond des boutons au survol */
+}
+
+/* Styles pour l'image */
+.image {
+  text-align: center; /* Centrer l'image horizontalement */
+  margin-top: 20px; /* Espacement du haut de l'image */
+}
+
+/* Styles pour le corps de la page */
+body {
+  margin: 0; /* Supprimer les marges par défaut */
+  padding: 0; /* Supprimer les marges internes par défaut */
+  background-image: url('salle-de-boxe.png'); /* Utiliser l'image comme fond */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la page */
+  background-position: center; /* Centrer l'image horizontalement et verticalement */
+}

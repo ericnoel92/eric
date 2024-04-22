@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'; // Importation du composant Link
-import './HomePage.css'; // Importation des styles CSS
-import Inscription from './Inscription'; // Importation du composant Inscription
+import { Link } from 'react-router-dom';
+import './HomePage.css'; // Importez le fichier CSS
 
 export default class HomePage extends Component {
   render() {
@@ -15,11 +14,12 @@ export default class HomePage extends Component {
           <Link to="/Connexion">
             <button className="connexion-button">Connexion</button>
           </Link>
-          <div>
           <Link to="/Infos">
-            <button className="Infos-button">Infos</button>
+            <button className="infos-button">Infos</button>
           </Link>
-          </div>
+          <Link to="/MAJ_Membres">
+            <button className="maj-membres-button">MAJ Membres</button>
+          </Link>
         </div>
       </div>
     );
