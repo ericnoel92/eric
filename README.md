@@ -1,4 +1,6 @@
-
+<div>
+  <img src="salle-de-boxe.png">
+</div>
 # Site de Krav Maga
 
 Bienvenue sur le site de Krav Maga ! Ce projet est une application web développée en utilisant React. Il s'agit d'une plateforme interactive permettant aux passionnés de Krav Maga de s'inscrire, de se connecter, d'accéder à des informations sur cet art martial, de mettre à jour les membres, et de consulter leur profil.
