@@ -1,4 +1,4 @@
-/* Styles pour l'en-tête */
+
 .header {
   text-align: center; /* Centrer le contenu horizontalement */
   padding-top: 50px; /* Espacement du haut de la page */
@@ -16,6 +16,7 @@
 .inscription-button,
 .infos-button,
 .maj-membres-button,
+.Profil-button,
 .connexion-button {
   background-color: blue; /* Couleur de fond des boutons */
   color: white; /* Couleur du texte des boutons */
@@ -28,6 +29,7 @@
 .inscription-button:hover,
 .infos-button:hover,
 .maj-membres-button:hover,
+.Profil-button:hover,
 .connexion-button:hover {
   background-color: #0066cc; /* Couleur de fond des boutons au survol */
 }
@@ -45,4 +47,9 @@ body {
   background-image: url('salle-de-boxe.png'); /* Utiliser l'image comme fond */
   background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la page */
   background-position: center; /* Centrer l'image horizontalement et verticalement */
+}
+h2{
+  display: flex;
+  justify-content: center;
+  color: blue;
 }

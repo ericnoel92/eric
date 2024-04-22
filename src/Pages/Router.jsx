@@ -5,10 +5,12 @@ import Inscription from './Inscription';
 import Connexion from './Connexion';
 import Infos from './Infos';
 import Profil from './Profil';
+import MAJ_Membres from './MAJ_Membres';
 function AppRouter() {
     return (
         <Router>
             <Routes>
+            <Route path="/MAJ_Membres" element={<MAJ_Membres />} />
             <Route path="/Profil" element={<Profil />} />
             <Route path="/Connexion" element={<Connexion />} />
             <Route path="/Infos" element={<Infos />} />
