@@ -1,72 +1,64 @@
-# Getting Started with Create React App
+<div>
+  <img src="salle-de-boxe.png">
+</div>
+# Site de Krav Maga
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur le site de Krav Maga ! Ce projet est une application web développée en utilisant React. Il s'agit d'une plateforme interactive permettant aux passionnés de Krav Maga de s'inscrire, de se connecter, d'accéder à des informations sur cet art martial, de mettre à jour les membres, et de consulter leur profil.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. **Clonage du dépôt :**  
+   ```
+   git clone https://github.com/votre-utilisateur/site-krav-maga.git
+   ```
+2. **Accès au répertoire du projet :**  
+   ```
+   cd site-krav-maga
+   ```
+3. **Installation des dépendances :**  
+   ```
+   npm install
+   ```
 
-### `npm start`
+## Lancement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pour lancer l'application en mode développement, exécutez la commande suivante :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm start
+```
 
-### `npm test`
+Cela démarrera l'application sur [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Fonctionnalités
 
-### `npm run build`
+- **Inscription :** Les utilisateurs peuvent s'inscrire sur le site pour accéder à l'ensemble des fonctionnalités.
+- **Connexion :** Les utilisateurs enregistrés peuvent se connecter à leur compte existant.
+- **Informations sur le Krav Maga :** Consultation des informations relatives à cet art martial.
+- **Mise à Jour des Membres :** Gestion des membres de la plateforme, incluant les ajouts, les suppressions et les mises à jour.
+- **Consultation du Profil :** Les utilisateurs peuvent visualiser leur propre profil, y compris leurs informations personnelles et leur historique.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Structure du Projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Le projet est organisé de la manière suivante :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+|-- components/
+|   |-- HomePage.js
+|   |-- InscriptionPage.js
+|   |-- ConnexionPage.js
+|   |-- InfosPage.js
+|   |-- MAJMembresPage.js
+|   |-- ProfilPage.js
+|-- App.css
+|-- App.js
+|-- index.css
+|-- index.js
+```
 
-### `npm run eject`
+## Pour me joindre
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email :  email eric.antonie.noel92@gmail.com.
 
 [![Quality gate](http://192.168.1.24:9000/api/project_badges/quality_gate?project=eric-projetjs&token=sqb_b97027ced52d94370121cebb67f4161b2cdcf4fb)](http://192.168.1.24:9000/dashboard?id=eric-projetjs)
